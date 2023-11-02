@@ -6,7 +6,7 @@
 /*   By: ede-cola <ede-cola@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 15:05:22 by ede-cola          #+#    #+#             */
-/*   Updated: 2023/11/02 10:45:23 by ede-cola         ###   ########.fr       */
+/*   Updated: 2023/11/02 10:54:09 by ede-cola         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,5 @@ int	ft_iterative_factorial(int nb)
 		res = res * i;
 		i++;
 	}
-	if (res > 32767)
-		return (0);
 	return (res);
 }
